@@ -1,0 +1,77 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/kashmir1.jpg);
+    background-size: cover; /* This property ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    background-color: #041111;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#packagesContainer {
+    margin-top: 20px;
+}
+
+.package {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.package h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.package p {
+    margin-bottom: 10px;
+}
+
+.bookBtn {
+    right: 10px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .package {
+        padding: 15px;
+    }
+}
